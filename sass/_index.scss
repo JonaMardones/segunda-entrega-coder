@@ -13,7 +13,7 @@ body {
     background-color: rgba(13, 27, 48, 0.705);
     border-radius: 30px;
     height: 80px;
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .logo_menu {
@@ -59,7 +59,7 @@ body {
   
   .Btn_Menu {
     margin-right: 30px;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     display: none;
   }
@@ -104,7 +104,7 @@ body {
     padding-right: 10px;
   }
   
-  @media screen and (max-width: 952px) {
+  @media screen and (max-width: 1100px) {
     .logo_menu {
       margin-top: 25px;
       font-size: 1em;
@@ -127,16 +127,19 @@ body {
     }
     #ima1 {
       border-radius: 0;
+      width: auto;
     }
     .conte {
       width: 100%;
       border-radius: 0;
+      height: auto;
+      margin-bottom: 50px;
     }
     #saludo {
       margin-top: 5px;
     }
     #texto {
-      margin-top: 15px;
+      margin-top: 2%;
     }
   }
   @media screen and (max-width: 768px) {
@@ -179,6 +182,11 @@ body {
     }
     .contenedor {
       align-content: center;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .contenedor{
+      margin-bottom: 20px;
     }
   }
   
